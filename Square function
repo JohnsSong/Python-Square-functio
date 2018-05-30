@@ -17,7 +17,7 @@ t.goto(0, 0)
 t.down()
 s(100);
 
-
-
-
+t.up()
+t.goto(200, 0)
+t.down()
 s(100);
