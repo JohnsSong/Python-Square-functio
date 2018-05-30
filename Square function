@@ -1,0 +1,23 @@
+import turtle
+t = turtle.Turtle()
+t.shape("turtle")
+
+def s(length):
+    for i in range(4):
+        t.fd(length)
+        t.lt(90)
+
+t.up()
+t.goto(-200, 0)
+t.down()
+s(100);
+
+t.up()
+t.goto(0, 0)
+t.down()
+s(100);
+
+
+
+
+s(100);
